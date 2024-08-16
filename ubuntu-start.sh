@@ -3,7 +3,7 @@
 ## Example ##
 
 # Setting the time zone
-#sudo timedatectl set-timezone "America/Los_Angeles"
+sudo timedatectl set-timezone "America/Los_Angeles"
 
 # Install the tools you need to use
 #sudo apt update
