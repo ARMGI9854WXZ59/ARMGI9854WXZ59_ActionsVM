@@ -1,4 +1,4 @@
-# https://github.com/rdp-studio/ActionsVM
+# https://github.com/ARMGI9854WXZ59/ARMGI9854WXZ59_ActionsVM/
 
 name: Ubuntu (tmate)
 
@@ -17,7 +17,7 @@ jobs:
       run: source ubuntu-start.sh
 
     - name: Start SSH via tmate
-      uses: rdp-studio/ssh2actions@main
+      uses: ARMGI9854WXZ59/ARMGI9854WXZ59_Ssh2Actions@main
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
